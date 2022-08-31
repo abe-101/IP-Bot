@@ -10,6 +10,7 @@ pip-wheel-metadata/
 
 # dev tools
 
+.env
 .envrc
 .python-version
 .idea
