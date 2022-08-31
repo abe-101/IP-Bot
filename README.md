@@ -1,8 +1,11 @@
 # ip-bot
 
+https://user-images.githubusercontent.com/82916197/187593496-2d626495-82f1-4451-bf6c-1411f9cb9120.mp4
+
 ## Description
 
-ip-bot will provide contextual information about an ip address mentioned in a slack message's.
+ip-bot is a Slack bot that will provide contextual information about an ip address mentioned in a slack message.
+
 
 ## Set up
 
@@ -17,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 ## Configure slack app
-Follow Slack's step-by-step guide to (Building an app with Bolt for Python)[https://api.slack.com/start/building/bolt-python]
+Follow Slack's step-by-step guide to [Building an app with Bolt for Python](https://api.slack.com/start/building/bolt-python)
 
 For this project we need to ad more scope
 Bot Token Scopes:
@@ -32,8 +35,8 @@ User Token Scopes:
 ## Environment Variables
 To avoid having to export your variables create a file `ip_bot/.env` with your api keys and ip-bot will handle the rest 😀
 
-ip-bot gets ip address information using (Virus Total)[https://www.virustotal.com/gui/home/upload] public API.
-Create an account to get your API Token https://developers.virustotal.com/reference/overview
+ip-bot uses [Virus Total's](https://www.virustotal.com/gui/home/upload) public API.
+Create an account to get your Token at https://developers.virustotal.com/reference/overview
 ```
 SLACK_BOT_TOKEN=<Your Slack bot Token>
 SLACK_SIGNING_SECRET=<Slack signing key>
