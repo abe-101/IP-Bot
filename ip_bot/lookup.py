@@ -5,7 +5,6 @@ import re
 import pycountry
 import requests
 from dotenv import load_dotenv
-
 from stats import pretty_stats
 
 
