@@ -24,7 +24,6 @@ Scroll down to the **User Token Scopes** section and click **Add an OAuth Scope*
 Search for:
 1. channels:history
 
-Under 
 ## Fork and Clone this repo
 ```
 git clone git@github.com:<USERNAME>/ip-bot.git
@@ -44,8 +43,8 @@ Install your own app by selecting the **Install App** button at the top of the *
 
 Create a file `ip_bot/.env` Containing you API tokens.
 for this project we need:
-1. The Bot User OAuth Access Token under the OAuth & Permissions sidebar
-2. The Slack signing secret. Navigate to the Basic Information page from your app management page. Under App Credentials, copy the value for Signing Secret.
+1. The Bot User OAuth Access Token under the **OAuth & Permissions** sidebar
+2. The Slack signing secret. Navigate to the **Basic Information** page from your app management page. Under **App Credentials**, copy the value for Signing Secret.
 3. [Virus Total's](https://www.virustotal.com/gui/home/upload) public API. Create an account to get your Token at https://developers.virustotal.com/reference/overview
 
 ```
@@ -81,8 +80,9 @@ After you've saved your Request URL, click on **Subscribe to events on behalf of
 
 ## Try It Out
 
-Open slack add your bot to any channel ad try mentioning an ip address in a message :)
+You bot is now ready in action
+Open slack messanger and add your bot to any channel and mention an ip address in a message and see what happens
 
 ## Credits
 * [Abe](https:github.com/abe-101)
-* [b-fullam](https://github.com/b-fullam/Automating-VirusTotal-APIv3-for-IPs-and-URLs)
+<!-- * [b-fullam](https://github.com/b-fullam/Automating-VirusTotal-APIv3-for-IPs-and-URLs)-->
