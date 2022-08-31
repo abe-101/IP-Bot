@@ -6,8 +6,7 @@ https://user-images.githubusercontent.com/82916197/187593974-ca406ab0-8813-4396-
 
 ## Description
 
-ip-bot is a Slack bot that will provide contextual information about an ip address mentioned in a slack message.
-
+a Slack bot that will tell you about an IP address mentioned in a slack message.
 
 ## Set up
 
