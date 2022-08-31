@@ -81,7 +81,7 @@ After you've saved your Request URL, click on **Subscribe to events on behalf of
 ## Try It Out
 
 You bot is now ready in action
-Open slack messanger and add your bot to any channel and mention an ip address in a message and see what happens
+Open slack messenger and add your bot to any channel and mention an ip address in a message and see what happens
 
 ## Credits
 * [Abe](https:github.com/abe-101)
