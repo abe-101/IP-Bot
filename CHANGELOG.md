@@ -10,3 +10,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2022-08-30
 ### Added
 - Private ip lookup using builtin ipaddress module
+- Add step-by-step guide to set up ip-bot
