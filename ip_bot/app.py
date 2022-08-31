@@ -1,28 +1,24 @@
 import os
 import re
 
-# Use the package we installed
+from dotenv import load_dotenv
+from lookup import lookup_ip
 from slack_bolt import App
+
+load_dotenv()
 
 # Initializes your app with your bot token and signing secret
 # https://api.slack.com/start/building/bolt-python#initialize
-app = App(
-    token=os.environ.get("SLACK_BOT_TOKEN"), signing_secret=os.environ.get("SLACK_SIGNING_SECRET")
-)
+app = App(token=os.getenv("SLACK_BOT_TOKEN"), signing_secret=os.getenv("SLACK_SIGNING_SECRET"))
 
 
 # https://slack.dev/bolt-python/concepts
-@app.message(
-    re.compile(
-        r"(?<![-\.\d])(?:0{0,2}?[0-9]\.|1\d?\d?\.|2[0-5]?[0-5]?\.)"
-        r"{3}(?:0{0,2}?[0-9]|1\d?\d?|2[0-5]?[0-5]?)(?![\.\d])"
-    )
-)
+@app.message(re.compile(r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}"))
 def say_hello_regex(say, context):
     # regular expression matches are inside of context.matches
     for ip in context["matches"]:
         # Look up IP
-        say(f"{ip} is amazing")
+        say(lookup_ip(ip))
 
 
 # Start your app
