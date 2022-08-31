@@ -1,7 +1,6 @@
+import ipaddress
 import json
 import os
-import re
-import ipaddress
 
 import pycountry
 import requests
