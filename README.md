@@ -6,7 +6,9 @@ https://user-images.githubusercontent.com/82916197/187593974-ca406ab0-8813-4396-
 
 ## Description
 
-a Slack bot that will tell you about an IP address mentioned in a slack message.
+a Slack bot that listens for messages containing IP addresses and responds with security info about them.
+
+Full demo video at https://youtu.be/1LehrI46O-c
 
 # Getting Started
 
