@@ -1,4 +1,9 @@
-from ip_bot.stats import pretty_stats
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/../src")
+
+from stats import pretty_stats
 
 
 def test_pretty_stats():
