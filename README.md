@@ -91,8 +91,8 @@ You can deploy this project for free on [Railway.app](https://railway.app/)
 
 1. Create a new project and select `deploy from GitHub repo`  
     give railway.app access to your newly created GitHub repo.
-2. Go to the variables tab add the [above mentioned](#Environment Variables) variables.
-3. In the setting tab under the Domains section click `generate domain` and add it to your slack app as mentioned above in [Subscribing to events](#Subscribing to events)
+2. Go to the variables tab add the [above mentioned](#Environment-Variables) variables.
+3. In the setting tab under the Domains section click `generate domain` and add it to your slack app as mentioned above in [Subscribing to events](#Subscribing-to-events)
 4. Set the `start command` to be `python ip_bot/app.py`.
 
 Your bot is now running all the time.  
