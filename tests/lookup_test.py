@@ -4,7 +4,11 @@ import sys
 sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/../ip_bot")
 
 
-from lookup import is_private_range, make_ip_info_sting, validate_ip_address  # noqa: E402
+from lookup import (  # noqa: E402
+    is_private_range,
+    make_ip_info_sting,
+    validate_ip_address,
+)
 
 
 def test_is_private_range():
