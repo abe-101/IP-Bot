@@ -85,6 +85,18 @@ After you've saved your Request URL, click on **Subscribe to events on behalf of
 You bot is now ready in action
 Open slack messenger and add your bot to any channel and mention an ip address in a message and see what happens
 
+## Deployment
+
+You can deploy this project for free on [Railway.app](https://railway.app/)  
+
+1. Create a new project and select `deploy from GitHub repo`  
+    give railway.app access to your newly created GitHub repo.
+2. Go to the variables tab and add the [above mentioned](#Environment-Variables) variables.
+3. In the setting tab under the Domains section click `generate domain` and add it to your slack app as mentioned above in [Subscribing to events](#Subscribing-to-events)
+4. Set the `start command` to be `python ip_bot/app.py`.
+
+Your bot is now running all the time.  
+
 ## Credits
 * [Abe](https:github.com/abe-101)
 <!-- * [b-fullam](https://github.com/b-fullam/Automating-VirusTotal-APIv3-for-IPs-and-URLs)-->
