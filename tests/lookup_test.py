@@ -19,7 +19,7 @@ def test_validate_ip_address():
 
 
 def test_make_ip_info_sting():
-    with open("../ip_bot/file.json") as f:
+    with open("file.json") as f:
         decodedResponse = json.load(f)
     formated_stat = (
         "23.43.12.1 originates from 🇺🇸 United States, 93 reports have found it harmless."
