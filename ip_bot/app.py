@@ -27,6 +27,7 @@ def say_hello_regex(say, context):
             continue
         if is_private_range(ip_string):
             say(f"{ip_string} is reserved for private networks.")
+            continue
         say(make_ip_info_sting(virus_total_api_call(ip_string)))
 
 
