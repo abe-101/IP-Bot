@@ -1,10 +1,10 @@
 import os
 import sys
 
-sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/../ip_bot")  # noqa: E402
+sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/../ip_bot")
 
 
-from stats import pretty_stats
+from stats import pretty_stats  # noqa: E402
 
 
 def test_pretty_stats():
