@@ -1,5 +1,4 @@
 import ipaddress
-import json
 import os
 
 import pycountry
