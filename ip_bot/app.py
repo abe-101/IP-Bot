@@ -2,8 +2,12 @@ import os
 import re
 
 from dotenv import load_dotenv
-
-from lookup import virus_total_api_call, make_ip_info_sting, is_private_range, validate_ip_address
+from lookup import (
+    is_private_range,
+    make_ip_info_sting,
+    validate_ip_address,
+    virus_total_api_call,
+)
 from slack_bolt import App
 
 load_dotenv()
