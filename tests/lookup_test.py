@@ -1,4 +1,3 @@
-import json
 import os
 import sys
 
@@ -19,8 +18,6 @@ def test_validate_ip_address():
 
 
 def test_make_ip_info_sting():
-    # with open("file.json") as f:
-    # decodedResponse = json.load(f)
     decodedResponse = {
         "data": {
             "attributes": {
