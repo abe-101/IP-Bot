@@ -19,9 +19,24 @@ def test_validate_ip_address():
 
 
 def test_make_ip_info_sting():
-    with open("file.json") as f:
-        decodedResponse = json.load(f)
+    # with open("file.json") as f:
+    # decodedResponse = json.load(f)
+    decodedResponse = {
+        "data": {
+            "attributes": {
+                "country": "US",
+                "last_analysis_stats": {
+                    "harmless": 93,
+                    "malicious": 0,
+                    "suspicious": 0,
+                    "undetected": 0,
+                    "timeout": 0,
+                },
+            },
+            "id": "23.43.12.1",
+        }
+    }
     formated_stat = (
         "23.43.12.1 originates from 🇺🇸 United States, 93 reports have found it harmless."
     )
-    assert make_ip_info_sting(decodedResponse) is formated_stat
+    assert make_ip_info_sting(decodedResponse) == formated_stat
