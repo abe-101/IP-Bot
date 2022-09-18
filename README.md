@@ -87,7 +87,7 @@ Open slack messenger and add your bot to any channel and mention an ip address i
 
 ## Deployment
 
-You can deploy this project for free on [Railway.app](https://railway.app/)  
+You can deploy this project for free on [Railway.app](https://railway.app?referralCode=abe-101)  
 
 1. Create a new project and select `deploy from GitHub repo`  
     give railway.app access to your newly created GitHub repo.
