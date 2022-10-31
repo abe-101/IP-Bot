@@ -31,7 +31,7 @@ Search for:
 git clone git@github.com:<USERNAME>/ip-bot.git
 ```
 
-## Install Dependency's :
+## Install Dependencies:
 ```
 pip install -r requirements.txt
 ```
