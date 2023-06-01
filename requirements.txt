@@ -10,7 +10,7 @@ pydantic==1.10.7
 Pygments==2.15.0
 python-dotenv==1.0.0
 requests==2.28.2
-rich==13.3.3
+rich==13.4.1
 slack-bolt==1.17.0
 slack-sdk==3.21.0
 typing_extensions==4.5.0
